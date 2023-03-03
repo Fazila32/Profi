@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto:300i,400,400i,500,700|Material+Icons&amp;display=swap);
+:root {
+  --gray: #6c757d;
+  --bg1: #f9f9f9;
+  --black: #000;
+  --Green: #3db36b;
+  --lightGreen: #5dc786;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ----------------------General------------------- */
+.esti-btn {
+  border-radius: 0%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.des {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.75rem;
+  letter-spacing: 0.125rem;
+}
+#toast-container > .toast-error {
+  background-color: #bd362f;
+}
+/* ------------------Set Heading Fonts------------ */
+.font-heading {
+  font-size: 3.5rem;
+}
+@media (max-width: 768px) {
+  .font-heading {
+    font-size: 2rem;
   }
 }
+/* ---------------------dark Navbar----------------- */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-family: "Arimo", sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+/* .darkcolor, .stic{
+  z-index: 2;
+} */
+.z-index-1 {
+  z-index: 1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.darkcolor,
+ul.options,
+.esti-btn {
+  background: var(--Green);
 }
+.darkcolor,
+ul.options,
+.esti-btn,
+.nav-text {
+  letter-spacing: 0.125rem;
+  font-size: 0.75rem;
+}
+ul.options {
+  border: none;
+  z-index: 289;
+}
+h1 {
+  font-size: 3.125rem;
+}
+ul.options a:hover {
+  background: var(--lightGreen);
+}
+/* ---------------------Light Nav----------------- */

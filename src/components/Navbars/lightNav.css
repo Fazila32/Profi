@@ -1,0 +1,14 @@
+.light-nav .navbar .nav-link {
+  color: black;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.profi {
+  margin-left: -25px;
+}
+.light-nav .navbar .nav-link:hover,
+.light-nav .navbar .navbar-nav .nav-link.active {
+  padding-bottom: 7px;
+  color: var(--Green);
+  border-bottom: 3px solid var(--Green);
+}

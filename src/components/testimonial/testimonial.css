@@ -1,0 +1,8 @@
+.testimonial-sec {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.test-cards {
+  border: 2px solid var(--bg1);
+  border-left: 3px solid var(--Green);
+}

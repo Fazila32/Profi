@@ -1,0 +1,37 @@
+.whyUs {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media (max-width: 991px) {
+  .list-div {
+    margin-top: 300px;
+  }
+}
+@media (max-width: 501px) {
+  .list-div {
+    margin-top: 400px;
+  }
+}
+@media (max-width: 362px) {
+  .list-div {
+    margin-top: 600px;
+  }
+}
+
+.left {
+  height: fit-content;
+}
+.char {
+  line-height: 40px;
+}
+.check {
+  color: var(--Green);
+}
+/* .left-content {
+  width: 100%;
+} */
+.set-bg {
+  width: 70%;
+  height: 70vh;
+  object-fit: cover;
+}
